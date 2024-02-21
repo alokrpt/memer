@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct PersonModel: Hashable {
- let name: String
- let age: Int
+struct MemeModel: Hashable {
+ let title: String
+ let path: String
 }

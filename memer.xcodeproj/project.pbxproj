@@ -14,6 +14,8 @@
 		5CA716512B862E070073C95A /* memerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA716502B862E070073C95A /* memerTests.swift */; };
 		5CA7165B2B862E070073C95A /* memerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA7165A2B862E070073C95A /* memerUITests.swift */; };
 		5CA7165D2B862E070073C95A /* memerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA7165C2B862E070073C95A /* memerUITestsLaunchTests.swift */; };
+		5CA7166D2B863E030073C95A /* MemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA7166C2B863E030073C95A /* MemeModel.swift */; };
+		5CA7166F2B8648EE0073C95A /* Viewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA7166E2B8648EE0073C95A /* Viewer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		5CA716562B862E070073C95A /* memerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CA7165A2B862E070073C95A /* memerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memerUITests.swift; sourceTree = "<group>"; };
 		5CA7165C2B862E070073C95A /* memerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5CA7166C2B863E030073C95A /* MemeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeModel.swift; sourceTree = "<group>"; };
+		5CA7166E2B8648EE0073C95A /* Viewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viewer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				5CA716422B862E060073C95A /* Assets.xcassets */,
 				5CA716442B862E060073C95A /* memer.entitlements */,
 				5CA716452B862E060073C95A /* Preview Content */,
+				5CA7166C2B863E030073C95A /* MemeModel.swift */,
+				5CA7166E2B8648EE0073C95A /* Viewer.swift */,
 			);
 			path = memer;
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CA716412B862E050073C95A /* ContentView.swift in Sources */,
+				5CA7166F2B8648EE0073C95A /* Viewer.swift in Sources */,
 				5CA7163F2B862E050073C95A /* memerApp.swift in Sources */,
+				5CA7166D2B863E030073C95A /* MemeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

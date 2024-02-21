@@ -8,11 +8,21 @@
 import SwiftUI
 
 struct Viewer: View {
+    let meme: MemeModel
+      
+      init(meme: MemeModel) {
+          self.meme = meme
+      }
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(content: {
+            Image(meme.path).resizable()
+                .scaledToFit()
+            Spacer().frame(height: 20)
+            Text(meme.title)
+        })
     }
 }
 
 #Preview {
-    Viewer()
+    Viewer(meme: MemeModel(title: "meme1", path: "meme1"))
 }
