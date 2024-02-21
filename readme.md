@@ -15,7 +15,7 @@ This is a simple SwiftUI app that allows users to view a list of memes and open 
 <img src="screenshots/sc1.png" width="250" altText= "meme list" />
 <img src="screenshots/sc2.png" width="250" altText= "meme viewer" />
 
-## Requirements¯
+## Requirements
 
 - Xcode 13+
 - iOS 14.0+
